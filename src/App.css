@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.mi-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  transform: translateX(0);
+  height: 100vh;
+  z-index: 10;
+  transition: all 0.4s ease-out;
+}
+
+.mi-wrapper {
+  padding-left: 300px;
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+}
+
+.mi-home-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
