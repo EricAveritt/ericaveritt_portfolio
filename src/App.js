@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <div class="mi-wrapper">
+    <div class="ea-wrapper">
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />

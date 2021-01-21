@@ -11,11 +11,13 @@ import {
 import "react-pro-sidebar/dist/css/styles.css";
 import { FaGem } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./App.css";
 
 export default function Sidebar() {
   return (
-    <div class="mi-header">
+    <div class="ea-header">
       <ProSidebar>
+        {/* #663f3f */}
         <SidebarHeader></SidebarHeader>
         <SidebarContent>
           <Menu iconShape="square">
