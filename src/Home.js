@@ -4,15 +4,15 @@ import ParticlesBg from "particles-bg";
 
 export default function Home() {
   return (
-    <div class="ea-home-area">
-      <div class="ea-home-canvas">
+    <div className="ea-home-area">
+      <div className="ea-home-canvas">
         <ParticlesBg type="cobweb" color="#51c2d5" bg={true} />
         {/* <canvas id="nokey">Your browser doesn't support canvas.</canvas> */}
       </div>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 col-12">
-            <div class="ea-home-content">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-10 col-12">
+            <div className="ea-home-content">
               <h1>
                 Hi, I'm <span class="color-theme">Eric Averitt</span>
               </h1>

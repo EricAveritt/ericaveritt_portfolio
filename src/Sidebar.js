@@ -15,32 +15,31 @@ import "./App.css";
 
 export default function Sidebar() {
   return (
-    <div class="ea-header">
-      <ProSidebar>
-        {/* #663f3f */}
-        <SidebarHeader></SidebarHeader>
-        <SidebarContent>
-          <Menu iconShape="square">
-            <MenuItem icon={<FaGem />}>
-              Home
-              <Link to="/" />
-            </MenuItem>
-            <MenuItem icon={<FaGem />}>
-              About
-              <Link to="/about" />
-            </MenuItem>
-            <MenuItem icon={<FaGem />}>
-              Resume
-              <Link to="/resume" />
-            </MenuItem>
-            <MenuItem icon={<FaGem />}>
-              Contact
-              <Link to="/contact" />
-            </MenuItem>
-          </Menu>
-        </SidebarContent>
-        <SidebarFooter></SidebarFooter>
-      </ProSidebar>
-    </div>
+    // TODO: Add in a hamburger button to toggle the toggled props for the prosidebar
+    <ProSidebar breakPoint="md" toggled={false}>
+      {/* #663f3f */}
+      <SidebarHeader></SidebarHeader>
+      <SidebarContent>
+        <Menu iconShape="square">
+          <MenuItem icon={<FaGem />}>
+            Home
+            <Link to="/" />
+          </MenuItem>
+          <MenuItem icon={<FaGem />}>
+            About
+            <Link to="/about" />
+          </MenuItem>
+          <MenuItem icon={<FaGem />}>
+            Resume
+            <Link to="/resume" />
+          </MenuItem>
+          <MenuItem icon={<FaGem />}>
+            Contact
+            <Link to="/contact" />
+          </MenuItem>
+        </Menu>
+      </SidebarContent>
+      <SidebarFooter></SidebarFooter>
+    </ProSidebar>
   );
 }
